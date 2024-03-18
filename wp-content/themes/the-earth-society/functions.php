@@ -122,9 +122,12 @@ add_action( 'widgets_init', 'the_earth_society_widgets_init' );
  */
 function the_earth_society_scripts() {
 	wp_enqueue_style( 'the-earth-society-style', get_template_directory_uri() . '/css/style-desktop.css', array(), _S_VERSION );
+<<<<<<< HEAD
 	wp_enqueue_style( 'the-earth-society-mobile', get_template_directory_uri() . '/css/style-mobile.css', array(), _S_VERSION );
 	wp_enqueue_script( 'the-earth-society-scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0', true );
 	wp_enqueue_script('jquery');
+=======
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
 	//wp_style_add_data( 'the-earth-society-style', 'rtl', 'replace' );
 
 	//wp_enqueue_script( 'the-earth-society-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
@@ -200,6 +203,7 @@ function add_custom_fields_to_customize($wp_customize) {
 add_action('customize_register', 'add_custom_fields_to_customize');
 
 
+<<<<<<< HEAD
 add_action('acf/init', 'register_blocks');
 function register_blocks() {
 
@@ -275,6 +279,10 @@ function register_blocks() {
         )
     )
 ));*/
+=======
+
+
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
 
 require get_template_directory() . '/inc/custom-header.php';
 

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
 body {
@@ -7,19 +8,32 @@ body {
 }
 div, ul, li, p, h1 {
     font-family: 'Montserrat', sans-serif;
+=======
+
+body {
+    font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
 }
 /*Desktop*/
 #secondary {
 	display:none;
 }
 .navbar {
+<<<<<<< HEAD
     background-color: rgba(0, 0, 0, 0.5);
+=======
+    background-color: #333;
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 100px; 
+<<<<<<< HEAD
     z-index: 9999;
     position: relative;
+=======
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
 }
 
 ul.navbar-menu li {
@@ -41,23 +55,29 @@ ul.navbar-menu-footer a {
 }
 .info-footer{
 	display:inline-flex;
+<<<<<<< HEAD
     font-size:12px;
 }
 
 .footer-column .menu {
 
     font-size:12px;
+=======
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
 }
 .copyright:after {
     content: "|";
     margin: 0 10px;
 }
 
+<<<<<<< HEAD
 .address:after {
     content: "|";
     margin: 0 10px;
 }
 
+=======
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
 .footer-wrapper {
     padding-left: 100px;
     padding-right: 100px;
@@ -66,13 +86,20 @@ ul.navbar-menu-footer a {
 ul.navbar-menu li:not(:last-child)::after {
     content: "•";
     margin: 0 10px;
+<<<<<<< HEAD
     color: #5e9132;
+=======
+    color: white;
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 30px; 
     margin-left: 30px;
+<<<<<<< HEAD
     font-size: 20px;
+=======
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
 }
 
 ul.navbar-menu-footer li:not(:last-child)::after {
@@ -112,20 +139,30 @@ ul.navbar-menu-footer li:not(:last-child)::after {
 }
 
 .navbar-button button {
+<<<<<<< HEAD
     background-color: #ffffff00;
     color: #fff;
     font-family:"Montserrat", sans-serif;
     text-transform:uppercase;
     border: 1px solid #ffffff;
     padding: 10px 15px;
+=======
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     height:46px;
     width:166px;
 
+=======
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
 }
 
 .navbar-button button .button-icon {
@@ -164,6 +201,7 @@ ul.navbar-menu-footer li:not(:last-child)::after {
     margin-right: 10px;
 }
 
+<<<<<<< HEAD
 #logo-footer {
 
     width:20%;
@@ -187,6 +225,8 @@ ul.navbar-menu-footer li:not(:last-child)::after {
 
 }
 
+=======
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
 .menu ul {
     list-style: none;
     padding: 0;
@@ -197,6 +237,7 @@ ul.navbar-menu-footer li:not(:last-child)::after {
     margin-right: 10px;
 }
 
+<<<<<<< HEAD
 main#primary {
     margin-top:-100px;
 }
@@ -206,3 +247,36 @@ main#primary {
   max-height:835px;
 
 }
+=======
+/*/////*/
+ .hero-section {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.button:hover {
+    background-color: #ff8533;
+}
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
