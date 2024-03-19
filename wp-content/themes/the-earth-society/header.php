@@ -50,7 +50,15 @@
         
     );
 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+
+=======
+    // Output the menu
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
+>>>>>>> 7691b61ff864a57361e9dcad75642642cb8b2d1b
     wp_nav_menu($args);
 }
 $cta_button_text = get_theme_mod('cta_button_text');
@@ -62,6 +70,10 @@ $cta_link = get_theme_mod('cta_link');
         <a href="<?php echo esc_url($cta_link); ?>" style="text-decoration:none;"><button><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/donate-icon.png" alt="Icon" class="button-icon"><?php echo sanitize_text_field($cta_button_text); ?></button></a>
         </div>
 			</div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7691b61ff864a57361e9dcad75642642cb8b2d1b
     <div class="menu-toggle" id="mobile-menu">
       <span class="bar"></span>
       <span class="bar"></span>
@@ -81,4 +93,12 @@ $cta_link = get_theme_mod('cta_link');
 }
     ?>
 	</header><!-- #masthead -->
+<<<<<<< HEAD
     
+=======
+    
+=======
+    </nav>
+	</header><!-- #masthead -->
+>>>>>>> 3df3d29e915511f433e7c3ad5b47773396224a7d
+>>>>>>> 7691b61ff864a57361e9dcad75642642cb8b2d1b

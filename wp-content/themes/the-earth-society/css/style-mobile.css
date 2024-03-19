@@ -6,7 +6,11 @@
 
   }
 }
+<<<<<<< HEAD
 /*HEADER AND HERO*/
+=======
+
+>>>>>>> 7691b61ff864a57361e9dcad75642642cb8b2d1b
 @media (max-width:1126px) {
   .floating-card-wrapper {
     display:none;
@@ -201,6 +205,7 @@ ul.navbar-menu-mobile li {
 
   padding:10px;
 
+<<<<<<< HEAD
 }
 
 /*CTA BANNER */
@@ -276,4 +281,6 @@ ul.navbar-menu-mobile li {
   
 
 
+=======
+>>>>>>> 7691b61ff864a57361e9dcad75642642cb8b2d1b
 }

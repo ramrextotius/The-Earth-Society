@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 7691b61ff864a57361e9dcad75642642cb8b2d1b
 Contenido dinámico
 
 agregados header section y footer section en apariencia > personalizar

@@ -36,8 +36,13 @@ $image_url = wp_get_attachment_image_url($image, 'full');
     <div class="container">
         <div class="floating-card-wrapper">
         <div class="floating-card">
+<<<<<<< HEAD
         <p>Due to the gradual destruction of their habitat and wars in their limited habitat, the golden monkey is endangered.</p>
              <p><a href="#" class="text-align:center;">Help save the monkeys »</a></p>
+=======
+        Due to the gradual destruction of their habitat and wars in their limited habitat, the golden monkey is endangered.
+             <a href="#" class="text-align:center";>Help save the monkeys »</a>
+>>>>>>> 7691b61ff864a57361e9dcad75642642cb8b2d1b
         </div>
         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/monkey.png" class="monkey"/>
         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/icon-plus.png" class="plus"/>
