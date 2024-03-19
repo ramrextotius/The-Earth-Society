@@ -13,6 +13,6 @@ Title & Description
 Three block widget
 CTA Banner
 
-Faltan detalles de la version móvil
+Faltan la versión móvil del footer
 
 También se puede ver el sitio en https://custom.showmywebsite.fun/wordpress/
