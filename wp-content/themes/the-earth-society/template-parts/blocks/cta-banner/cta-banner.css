@@ -1,0 +1,51 @@
+.cta-banner-wrapper {
+    padding: 150px 50px 0px 50px;
+    background-color: #f4f4ec;
+}
+.cta-banner-column {
+    max-width:50%;
+    text-align: center;
+}
+
+.cta-banner-column .custom-separator-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cta-banner-column .cta-h1 {
+
+    font-size:32px;
+    font-weight:600;
+    text-transform: uppercase;
+    color: #544a41;
+    margin-bottom:20px;
+
+}
+
+.cta-banner-column .cta-description {
+
+    font-size:16px;
+    font-weight:500;
+    color: #544a41;
+    line-height: 22px;
+    margin-bottom:20px;
+
+}
+
+.cta-banner-column .cta-button {
+
+    background: linear-gradient(-90deg, rgb(161,187,59) 0%, rgb(89,142,49) 100%);
+    width:340px;
+    height:60px;
+    border: 1px solid #ffffff;
+    font-family:"Montserrat", sans-serif;
+    font-size:18px;
+    font-weight:500;
+    color:#ffffff;
+    cursor:pointer;
+    margin-bottom:60px;
+
+}
+
